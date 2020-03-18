@@ -2,7 +2,7 @@ import sympy
 
 
 def primes(n):
-    """ Returns a list of all prime numbers less than n"""
+    """ Returns list of all prime numbers less than n"""
     return list(sympy.primerange(0, n))
 
 
